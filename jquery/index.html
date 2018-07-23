@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=`, initial-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<meta name="Keywords" content="jquery轮播图,轮播图"/>
+	<title>Jquery轮播图</title>
+	<script src="js/jquery-3.3.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<!--<script src="js/jquery-2.1.0.js" type="text/javascript" charset="utf-8"></script>-->
+	<style type="text/css">
+		li{list-style: none;}
+		#scroll{height: 420px;width: 780px;margin-bottom: 10px;overflow: hidden;position: relative;margin: 0 auto;}
+		.slider{margin-top: 0;}
+		.num{position: absolute;right: 5px;bottom: 5px;}
+		#scroll .num li{float: left;color: #ff7300;text-align: center;line-height: 16px;width: 16px;height: 16px;cursor: pointer;overflow: hidden;margin: 3px 1px;border: 1px solid #FF7300;background: #fff;}
+		#scroll .num li.on{color: #fff;line-height: 21px;width: 21px;height: 21px;font-size: 16px; margin: 0 1px;border: 0;background: #FF7300;font-weight: bold;}
+	</style>
+	<script src="js/javascript.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="scroll"> 
+		<ul class="slider">
+			<li><a href="#"><img src="img/1cffe.jpg"/></a></li>
+			<li><a href="#"><img src="img/92215fb.jpeg"/></a></li>
+			<li><a href="#"><img src="img/d2ea71.jpg"/></a></li>
+			<li><a href="#"><img src="img/1cffe.jpg"/></a></li>
+			<li><a href="#"><img src="img/92215fb.jpeg"/></a></li>
+			<li><a href="#"><img src="img/d2ea71.jpg"/></a></li>
+			
+		</ul>
+		<ul class="num"></ul>
+	</div>
+	<div>By2018</div>
+</body>
+</html>
