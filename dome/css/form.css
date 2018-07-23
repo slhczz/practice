@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+table.form{
+    empty-cells: show;
+    margin: 20px 0px;
+    padding: 0px;
+    table-layout: fixed;
+}
+
+table.form th,
+table.form td{
+    margin: 0px;
+    padding: 15px 0px;
+}
+
+table.form th{
+    text-align: right;
+}
+
+.label{
+    margin: 0px 20px 0px 0px;
+}
+
+.required{
+    color: #E00000;
+    margin: 0px 20px 0px 0px;
+}
+
+.errorMobile{
+    color: #E00000;
+    margin: 0px 0px 0px 20px;
+    display: none;
+}
+
+.errorEmail{
+    color: #E00000;
+    margin: 0px 0px 0px 20px;
+    display: none;
+}
+
+.errorPassword{
+    color: #E00000;
+    margin: 0px 0px 0px 20px;
+    display: none;
+}
+
+.errorPassword2{
+    color: #E00000;
+    margin: 0px 0px 0px 20px;
+    display: none;
+}
+
+.tip{
+    color: #666666;
+    font-size: 12px;
+    margin: 0px 0px 0px 20px;
+}
+
+.tip a{
+    color: #008800;
+}
+
+.medium{
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    color: #333333;
+    font-size: 16px;
+    height: 32px;
+    line-height: 32px;
+    margin: 0px;
+    outline: none;
+    padding: 2px;
+    width: 254px;
+}
+
+.submit{
+    background: #01b763;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    margin: 0px;
+    outline: none;
+    padding: 0px;
+    width: 260px;
+}

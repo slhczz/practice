@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+#navigation-category-content{
+    display: block;
+}
+
+#main{
+    padding: 0px 0px 40px 0px;    
+}
+
+/* section */
+
+.section-heading{
+    line-height: 60px;
+}
+
+.section-heading h2{
+    font-size: 24px;
+}
+
+.section-heading ul li{
+    float: left;
+    font-size: 16px;
+}
+
+.section{
+    background: #FFFFFF;
+    margin: 0px 0px 20px 0px;
+}
+
+.section .left,
+.section .center,
+.section .right{
+    float: left;
+}
+
+.section .left,
+.section .right{
+    width: 235px;
+}
+
+.section .center{
+    width: 530px;
+}
+
+.section .center-grid{
+    border-bottom: 1px dotted #DDDDDD;
+    border-right: 1px dotted #DDDDDD;
+    height: 244px;
+    width: 264px;
+}
+
+.section .center-row:last-child .center-grid{
+    border-bottom: none;
+    height: 245px;
+}
+
+.section .center-grid dl{
+    height: 100%;
+    text-align: center;
+}
+
+.section .center-grid dl dt{
+    padding-top: 20px;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.section .center-grid dl dd{
+    color: #666666;
+}
+
+/* first-floor */
+
+.first-floor .left{
+    height: 450px;
+}
+
+.first-floor .user{
+    border-bottom: 1px dotted #CCCCCC;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.first-floor .user .welcome{
+    line-height: 40px;
+}
+
+.first-floor .user a{
+    color: #FFFFFF;
+    display: inline-block;
+    margin: 10px 10px 0px 10px;
+    padding: 5px 20px;
+}
+
+.first-floor .user a.login{
+    background: #E00000;
+}
+
+.first-floor .user a.register{
+    background: #009900;
+}
+
+.first-floor .notice{
+    font-size: 12px;
+    padding: 20px;
+}
+
+.first-floor .notice h3 a{
+    border-bottom: 2px solid #E00000;
+}
+
+.first-floor .notice ul{
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.first-floor .notice ul li{
+    zoom: 1;
+}
+
+.first-floor .notice ul li:after{
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+}
+
+.first-floor .notice ul li em{
+    color: #E00000;
+    float: left;
+    font-style: normal;
+    font-size: 25px;
+    width: 15px;
+}
+.first-floor .notice ul li a{
+    float: left;
+    width: 130px;
+}
+
+.first-floor .notice ul li span{
+    color: #999999;
+    float: right;
+    text-align: right;
+    width: 50px;
+}
+
+/* second floor */
+
+.second-floor{
+    background: #EEEEEE;
+}
+
+/* third floor */
+

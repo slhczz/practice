@@ -1,0 +1,115 @@
+@charset "utf-8";
+
+/* filter */
+
+#filter{
+    padding: 10px 0px;
+}
+
+#filter table{
+    background: #FFFFFF;
+    border-collapse: collapse;
+    table-layout: fixed;
+    empty-cells: show;
+    margin-top: 20px;
+    width: 100%;
+}
+
+#filter table th,
+#filter table td{
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    text-align: left;
+}
+
+#filter table th{
+    background: #FAFAFA;
+    font-weight: normal;
+}
+
+#filter table td.center{
+    text-align: center;
+    width: 60px;
+}
+
+#filter table td.selected{
+    border-color: #E00000;
+    color: #E00000;
+}
+
+#filter table ul.brand li,
+#filter table ul.region li{
+    display: inline-block;
+    line-height: 30px;
+    width: 200px;
+}
+
+#filter table ul.region li{
+    width: 100px;
+}
+
+#filter table input.text{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    color: #333333;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    margin: 0px;
+    outline: none;
+    padding: 2px;
+    width: 100px;
+}
+
+#filter table label input.checkbox{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    height: 16px;
+    margin: 0px 2px 0px 20px;
+    outline: none;
+    vertical-align: middle;
+    width: 16px;
+}
+
+#filter table label span{
+    vertical-align: middle;
+}
+
+/* list */
+
+.goods-list-row{
+    margin: 20px 0px 0px 0px;
+}
+
+/* pagination */
+
+#pagination{
+    padding: 60px 0px;
+    text-align: center;
+}
+
+#pagination a,
+#pagination span{
+    border: 1px solid #CCCCCC;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+#pagination a:hover{
+    border-color: #E00000;
+}
+
+#pagination span{
+    color: #999999;
+}
+
+#pagination .prev,
+#pagination .next{
+    background: #FFFFFF;
+}
+
+#pagination .current{
+    background: #E00000;
+    border-color: #C00000;
+    color: #FFFFFF;
+}
